@@ -1,0 +1,466 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5BEE5C5D176CFDD1008455D0 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BEE5C5C176CFDD1008455D0 /* Cocoa.framework */; };
+		5BEE5C67176CFDD1008455D0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5BEE5C65176CFDD1008455D0 /* InfoPlist.strings */; };
+		5BEE5C69176CFDD1008455D0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BEE5C68176CFDD1008455D0 /* main.m */; };
+		5BEE5C6D176CFDD1008455D0 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 5BEE5C6B176CFDD1008455D0 /* Credits.rtf */; };
+		5BEE5C70176CFDD1008455D0 /* GCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BEE5C6F176CFDD1008455D0 /* GCAppDelegate.m */; };
+		5BEE5C73176CFDD1008455D0 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5BEE5C71176CFDD1008455D0 /* MainMenu.xib */; };
+		5BEE5C7B176CFDD1008455D0 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BEE5C7A176CFDD1008455D0 /* SenTestingKit.framework */; };
+		5BEE5C7C176CFDD1008455D0 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5BEE5C5C176CFDD1008455D0 /* Cocoa.framework */; };
+		5BEE5C84176CFDD1008455D0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5BEE5C82176CFDD1008455D0 /* InfoPlist.strings */; };
+		5BEE5C87176CFDD1008455D0 /* goldenCutTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BEE5C86176CFDD1008455D0 /* goldenCutTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5BEE5C7D176CFDD1008455D0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5BEE5C51176CFDD1008455D0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5BEE5C58176CFDD1008455D0;
+			remoteInfo = goldenCut;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5BEE5C59176CFDD1008455D0 /* goldenCut.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = goldenCut.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BEE5C5C176CFDD1008455D0 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		5BEE5C5F176CFDD1008455D0 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		5BEE5C60176CFDD1008455D0 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		5BEE5C61176CFDD1008455D0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5BEE5C64176CFDD1008455D0 /* goldenCut-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "goldenCut-Info.plist"; sourceTree = "<group>"; };
+		5BEE5C66176CFDD1008455D0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5BEE5C68176CFDD1008455D0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5BEE5C6A176CFDD1008455D0 /* goldenCut-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "goldenCut-Prefix.pch"; sourceTree = "<group>"; };
+		5BEE5C6C176CFDD1008455D0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		5BEE5C6E176CFDD1008455D0 /* GCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCAppDelegate.h; sourceTree = "<group>"; };
+		5BEE5C6F176CFDD1008455D0 /* GCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCAppDelegate.m; sourceTree = "<group>"; };
+		5BEE5C72176CFDD1008455D0 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		5BEE5C79176CFDD1008455D0 /* goldenCutTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = goldenCutTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5BEE5C7A176CFDD1008455D0 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		5BEE5C81176CFDD1008455D0 /* goldenCutTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "goldenCutTests-Info.plist"; sourceTree = "<group>"; };
+		5BEE5C83176CFDD1008455D0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5BEE5C85176CFDD1008455D0 /* goldenCutTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = goldenCutTests.h; sourceTree = "<group>"; };
+		5BEE5C86176CFDD1008455D0 /* goldenCutTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = goldenCutTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5BEE5C56176CFDD1008455D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BEE5C5D176CFDD1008455D0 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BEE5C75176CFDD1008455D0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BEE5C7B176CFDD1008455D0 /* SenTestingKit.framework in Frameworks */,
+				5BEE5C7C176CFDD1008455D0 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5BEE5C50176CFDD1008455D0 = {
+			isa = PBXGroup;
+			children = (
+				5BEE5C62176CFDD1008455D0 /* goldenCut */,
+				5BEE5C7F176CFDD1008455D0 /* goldenCutTests */,
+				5BEE5C5B176CFDD1008455D0 /* Frameworks */,
+				5BEE5C5A176CFDD1008455D0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5BEE5C5A176CFDD1008455D0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5BEE5C59176CFDD1008455D0 /* goldenCut.app */,
+				5BEE5C79176CFDD1008455D0 /* goldenCutTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5BEE5C5B176CFDD1008455D0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5BEE5C5C176CFDD1008455D0 /* Cocoa.framework */,
+				5BEE5C7A176CFDD1008455D0 /* SenTestingKit.framework */,
+				5BEE5C5E176CFDD1008455D0 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5BEE5C5E176CFDD1008455D0 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5BEE5C5F176CFDD1008455D0 /* AppKit.framework */,
+				5BEE5C60176CFDD1008455D0 /* CoreData.framework */,
+				5BEE5C61176CFDD1008455D0 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		5BEE5C62176CFDD1008455D0 /* goldenCut */ = {
+			isa = PBXGroup;
+			children = (
+				5BEE5C6E176CFDD1008455D0 /* GCAppDelegate.h */,
+				5BEE5C6F176CFDD1008455D0 /* GCAppDelegate.m */,
+				5BEE5C71176CFDD1008455D0 /* MainMenu.xib */,
+				5BEE5C63176CFDD1008455D0 /* Supporting Files */,
+			);
+			path = goldenCut;
+			sourceTree = "<group>";
+		};
+		5BEE5C63176CFDD1008455D0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5BEE5C64176CFDD1008455D0 /* goldenCut-Info.plist */,
+				5BEE5C65176CFDD1008455D0 /* InfoPlist.strings */,
+				5BEE5C68176CFDD1008455D0 /* main.m */,
+				5BEE5C6A176CFDD1008455D0 /* goldenCut-Prefix.pch */,
+				5BEE5C6B176CFDD1008455D0 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5BEE5C7F176CFDD1008455D0 /* goldenCutTests */ = {
+			isa = PBXGroup;
+			children = (
+				5BEE5C85176CFDD1008455D0 /* goldenCutTests.h */,
+				5BEE5C86176CFDD1008455D0 /* goldenCutTests.m */,
+				5BEE5C80176CFDD1008455D0 /* Supporting Files */,
+			);
+			path = goldenCutTests;
+			sourceTree = "<group>";
+		};
+		5BEE5C80176CFDD1008455D0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5BEE5C81176CFDD1008455D0 /* goldenCutTests-Info.plist */,
+				5BEE5C82176CFDD1008455D0 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5BEE5C58176CFDD1008455D0 /* goldenCut */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BEE5C8A176CFDD1008455D0 /* Build configuration list for PBXNativeTarget "goldenCut" */;
+			buildPhases = (
+				5BEE5C55176CFDD1008455D0 /* Sources */,
+				5BEE5C56176CFDD1008455D0 /* Frameworks */,
+				5BEE5C57176CFDD1008455D0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = goldenCut;
+			productName = goldenCut;
+			productReference = 5BEE5C59176CFDD1008455D0 /* goldenCut.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5BEE5C78176CFDD1008455D0 /* goldenCutTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5BEE5C8D176CFDD1008455D0 /* Build configuration list for PBXNativeTarget "goldenCutTests" */;
+			buildPhases = (
+				5BEE5C74176CFDD1008455D0 /* Sources */,
+				5BEE5C75176CFDD1008455D0 /* Frameworks */,
+				5BEE5C76176CFDD1008455D0 /* Resources */,
+				5BEE5C77176CFDD1008455D0 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5BEE5C7E176CFDD1008455D0 /* PBXTargetDependency */,
+			);
+			name = goldenCutTests;
+			productName = goldenCutTests;
+			productReference = 5BEE5C79176CFDD1008455D0 /* goldenCutTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5BEE5C51176CFDD1008455D0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = GC;
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Martin Hettiger";
+			};
+			buildConfigurationList = 5BEE5C54176CFDD1008455D0 /* Build configuration list for PBXProject "goldenCut" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5BEE5C50176CFDD1008455D0;
+			productRefGroup = 5BEE5C5A176CFDD1008455D0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5BEE5C58176CFDD1008455D0 /* goldenCut */,
+				5BEE5C78176CFDD1008455D0 /* goldenCutTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5BEE5C57176CFDD1008455D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BEE5C67176CFDD1008455D0 /* InfoPlist.strings in Resources */,
+				5BEE5C6D176CFDD1008455D0 /* Credits.rtf in Resources */,
+				5BEE5C73176CFDD1008455D0 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BEE5C76176CFDD1008455D0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BEE5C84176CFDD1008455D0 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5BEE5C77176CFDD1008455D0 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5BEE5C55176CFDD1008455D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BEE5C69176CFDD1008455D0 /* main.m in Sources */,
+				5BEE5C70176CFDD1008455D0 /* GCAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5BEE5C74176CFDD1008455D0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5BEE5C87176CFDD1008455D0 /* goldenCutTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5BEE5C7E176CFDD1008455D0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5BEE5C58176CFDD1008455D0 /* goldenCut */;
+			targetProxy = 5BEE5C7D176CFDD1008455D0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5BEE5C65176CFDD1008455D0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BEE5C66176CFDD1008455D0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5BEE5C6B176CFDD1008455D0 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BEE5C6C176CFDD1008455D0 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		5BEE5C71176CFDD1008455D0 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BEE5C72176CFDD1008455D0 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		5BEE5C82176CFDD1008455D0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5BEE5C83176CFDD1008455D0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5BEE5C88176CFDD1008455D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5BEE5C89176CFDD1008455D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5BEE5C8B176CFDD1008455D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "goldenCut/goldenCut-Prefix.pch";
+				INFOPLIST_FILE = "goldenCut/goldenCut-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5BEE5C8C176CFDD1008455D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "goldenCut/goldenCut-Prefix.pch";
+				INFOPLIST_FILE = "goldenCut/goldenCut-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		5BEE5C8E176CFDD1008455D0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/goldenCut.app/Contents/MacOS/goldenCut";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "goldenCut/goldenCut-Prefix.pch";
+				INFOPLIST_FILE = "goldenCutTests/goldenCutTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		5BEE5C8F176CFDD1008455D0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/goldenCut.app/Contents/MacOS/goldenCut";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = "\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "goldenCut/goldenCut-Prefix.pch";
+				INFOPLIST_FILE = "goldenCutTests/goldenCutTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5BEE5C54176CFDD1008455D0 /* Build configuration list for PBXProject "goldenCut" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BEE5C88176CFDD1008455D0 /* Debug */,
+				5BEE5C89176CFDD1008455D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5BEE5C8A176CFDD1008455D0 /* Build configuration list for PBXNativeTarget "goldenCut" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BEE5C8B176CFDD1008455D0 /* Debug */,
+				5BEE5C8C176CFDD1008455D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5BEE5C8D176CFDD1008455D0 /* Build configuration list for PBXNativeTarget "goldenCutTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5BEE5C8E176CFDD1008455D0 /* Debug */,
+				5BEE5C8F176CFDD1008455D0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5BEE5C51176CFDD1008455D0 /* Project object */;
+}
