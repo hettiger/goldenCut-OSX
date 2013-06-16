@@ -11,5 +11,8 @@
 @interface GCAppDelegate : NSObject <NSApplicationDelegate>
 
 @property (assign) IBOutlet NSWindow *window;
+@property (assign) IBOutlet NSTextField *totalLength;
+@property (assign) IBOutlet NSTextField *majorLength;
+@property (assign) IBOutlet NSTextField *minorLength;
 
 @end
